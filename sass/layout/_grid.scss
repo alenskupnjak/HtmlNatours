@@ -10,7 +10,6 @@
     @include clearfix;
 
 
-
 [class^="col-"] {
  // background-color: orange;
   float: left;
@@ -21,13 +20,14 @@
 }
 
 
-
     .col-1-of-2 {
       width: calc((100% - #{$gutter-horizontal}) / 2);
+      background-color: #fff;  // poslije obrisi
     }
 
     .col-1-of-3 {
       width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+       background-color: orange;
     }
 
     .col-2-of-3 {
